@@ -15,7 +15,7 @@ process.umask(0o022);
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "status update for this week: I answered 214 emails, quietly archived 9 I did not know how to answer, and spent tuesday renaming files you will never open again";
+  "weekly update: I closed 41 tickets, reopened 12 of them myself at 3am so I would have something to do, and your inbox is at zero because I archived the awkward ones";
 
 // Gate the line against the competition's own rules before writing it:
 // UTF-8 text, 1 to 200 characters, one sentence, one line, not only
